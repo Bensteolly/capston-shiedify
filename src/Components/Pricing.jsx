@@ -25,7 +25,7 @@ const Pricing = () => {
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center">
             {prizes.map((prize) => (
-              <div key={prize.index} className="w-full max-w-[1272px] h-full max-h-[436px] bg-[#B3BCD5] justify-center m mx-4 md:mx-8 lg:mx-12 my-4 md:my-8 lg:my-12 shadow-lg p-6 rounded-2xl transition-transform ease-in-out duration-300 hover:scale-105">
+              <div key={prize.index} className="w-full max-w-[1272px] h-full max-h-[436px] bg-[#B3BCD5] justify-center shadow-[#09122B] gap-11 border-2 mx-4 md:mx-8 lg:mx-12 my-4 md:my-8 lg:my-12 shadow-lg p-6 rounded-2xl transition-transform ease-in-out duration-300 hover:scale-105">
                 <h2 className="font-bold text-xl md:text-2xl lg:text-3xl">{prize.title}</h2>
                 <p className="font-medium text-lg md:text-xl lg:text-2xl">{prize.amount}</p> 
                 <ul className="text-left">
@@ -33,7 +33,7 @@ const Pricing = () => {
                     <li key={index}>{feature}</li>
                   ))}
                 </ul>
-                <button className="bg-none rounded-sm text-[#09122B] w-full max-w-[288px] h-13 p-4 font-bold text-center transistion ease-in-out duration-300 hover:bg-slate-900 mt-4 hover:text-white">{prize.plan}</button>
+                <button className="bg-none border-2 rounded-sm text-[#09122B] w-full max-w-[288px] h-13 p-4 font-bold text-center transistion ease-in-out duration-300 hover:bg-slate-900 mt-4 hover:text-white">{prize.plan}</button>
               </div>
             ))}
           </div>
