@@ -3,21 +3,36 @@
 }
 
 
-
-
-
-
-
-
-.bullets{
- list-style: square;
+.primary-button{
+  background-color: #09122B;
+  color: #FFFFFF;
+  width: 145px;
+  height: 48px;
+  padding: 16px 16px 16px 16px;
+  gap: 10px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.41px;
+  text-align: center;
 }
 
 
-
-
-
-
+.primary-button2{
+  background-color: #09122B;
+  color: #FFFFFF;
+  width: 240px;
+  height: 48px;
+  padding: 16px 16px 16px 16px;
+  gap: 10px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.41px;
+  text-align: center;
+}
 
 
 

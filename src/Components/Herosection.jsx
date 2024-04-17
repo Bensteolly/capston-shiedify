@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.css';
 import Heroimage from '../Assets/Rectangle 2791.jpg'
 
 
@@ -12,7 +13,7 @@ const Herosection = () => {
                     desperately hoping for a good samaritan. What if there was <br />
                     a better way?
                 </p>
-                <button className="text-white bg-[#09122B] w-full max-w-[240px] h-12 rounded-lg p-6 text-base text-center leading-4 font-bold opacity-0  mt-8">SECURE YOUR DEVICE</button>
+                <button className="primary-button2  mt-8">SECURE YOUR DEVICE</button>
             </div>
             <div className="w-full sm:w-[646px] h-full mb-8 sm:mb-[120px] mt-8 sm:mt-[80px]">
                 <img src={Heroimage} alt="workstation" className="w-full h-auto" />

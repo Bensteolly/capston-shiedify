@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.css';
 import Logo from '../Assets/1 5.png';
 import { Link } from 'react-router-dom';
 
@@ -20,7 +21,7 @@ const Navbar = () =>{
           <Link to="../Pages/LoginForm.js">
             <h2 className="text-center mt-3 underline">LOGIN</h2>
           </Link>
-          <button className="w-full max-w-[120px] h-full max-h-[48px] bg-[#09122B] text-white rounded-lg p-6 text-base gap-2 font-bold text-center sm:leading-4  opacity-0">GET STARTED</button>
+          <button className="primary-button">GET STARTED</button>
         </div>
       </div>
       
