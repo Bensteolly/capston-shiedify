@@ -88,7 +88,7 @@ const Signup = () => {
 
                             />
                         </div>
-                        <button type="submit" className="primary-button my-6 mx-[150px] [60px] text-3xl pt-8" >SIGN UP</button>
+                        <button type="submit" className="text-white bg-[#09122B] w-full max-w-[145px] h-12 rounded-lg p-6 text-base text-center leading-4 font-bold opacity-0 my-6 mx-[150px] sm:text-3xl pt-8" >SIGN UP</button>
                     </form>
                     <p className='text-center pb-6 sm:mb-4'>Already have an account,
                         <Link to="../Pages/LoginForm.js"><span className='cursor-pointer'>Login!</span>

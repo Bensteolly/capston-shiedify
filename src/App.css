@@ -38,30 +38,6 @@
   text-align: center;
 }
 
-.button-secondary{
-  background-color: none;
-  border-width: 1px;
-  align-items: center;
-  color: #09122B;
-  width: 288px;
-  height: 52px;
-  margin-top: 20px;
-  padding: 16px 16px 16px 16px;
-  border-radius: 10px 10px 10px 10px;
-  font-size: 16px;
-  font-weight: 700;
-  text-align: center;
-  transition: background-color 0.3s ease-in-out;
-}
-
-
-.wrapper{
-  width: 1272px;
-  border-width: 2px;
-  box-shadow:2px 2px 0 #09122B ;
-  padding: 0 44px 0 44px;
-  border-radius: 10px;
-}
 
 .card{
   box-shadow: 4px 4px 4px 0px #09122B;

@@ -69,8 +69,8 @@ const LoginForm = () => {
               />
             </div>
             <p className='text-right mx-10 cursor-pointer' onClick="submit">Forgot Password</p>
-            {error && <p style={{ color: 'red', paddingLeft: '150px', paddingTop: '40px' }}>{error}</p>}
-            <button type="submit" className="primary-button my-6 mx-[150px] [60px] text-3xl pt-8" >LOGIN</button>
+            {error && <p style={{ color: 'red', paddingLeft: '150px', paddingTop: '40px' }}>{"Invalid useremail or password"}</p>}
+            <button type="submit" className="text-white bg-[#09122B] w-full max-w-[145px] h-12 rounded-lg p-6 text-base text-center leading-4 font-bold opacity-0 my-6 mx-[150px] sm:text-3xl pt-8" >LOGIN</button>
           </form>
           <p className='text-center pb-6 sm:mb-4'>Don't have an account,<Link to="/sign-up"><span className='cursor-pointer'>Sign up!</span>
           </Link> </p>
