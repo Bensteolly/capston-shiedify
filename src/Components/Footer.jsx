@@ -28,10 +28,10 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedinIn} />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-8 md:leading-8 pt-1">
+        <div className="flex flex-col md:flex-row gap-8 sm:gap-6 md:leading-8 pt-1">
           <div>
-            <h4 className="font-bold">ABOUT SHIELDIFY</h4>
-            <ul className="font-thin text-sm">
+            <h4 className="font-bold ">ABOUT SHIELDIFY</h4>
+            <ul className="font-thin text-sm leading-6">
               <li>How it works</li>
               <li>Features</li>
               <li>Pricing</li>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="font-bold">SOLUTIONS</h4>
-            <ul className="font-thin text-sm">
+            <ul className="font-thin text-sm leading-6">
               <li>Tracking & Location</li>
               <li>Device Security</li>
               <li>Geofencing</li>
@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="font-bold">LEGAL</h4>
-            <ul className="font-thin text-sm">
+            <ul className="font-thin text-sm leading-6">
               <li>Terms & conditions</li>
               <li>Privacy</li>
               <li>Cookies</li>
@@ -59,15 +59,15 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="font-bold">RESOURCES</h4>
-            <ul className="font-thin text-sm">
+            <ul className="font-thin text-sm leading-6 ">
               <li><Link to="../Pages/FAQ.js">FAQs</Link></li>
               <li><Link to="../Pages/Resourcepg.js">Security Awareness Training</Link></li>
             </ul>
           </div>
         </div>
       </div>
-      <div className=" pb-4">
-        <p className="font-thin text-xs px-8 ">© 2024 - SHIELDIFY</p>
+      <div className="pb-4">
+        <p className="font-thin text-xs px-8 ml-[80px] sm:ml-[350px]">© 2024 - SHIELDIFY</p>
       </div>
 </div>
         
