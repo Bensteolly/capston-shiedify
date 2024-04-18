@@ -35,8 +35,8 @@ const  Home = () => {
           </ul>
           <div className="flex items-center gap-4">
             <Link to="../Pages/LoginForm.js">
-              <button className="text-white bg-[#09122B] w-full max-w-[145px] h-12 rounded-lg p-6 text-base text-center leading-4 font-bold opacity-0" 
-              onClick={userSignOut}>LOG OUT</button>
+              <button className='bg-[#09122B] text-white w-full max-w-[145px] h-full max-h-12 rounded-lg p-4 font-bold text-center text-sm my-6 mx-[150px] sm:text-3xl pt-8'
+                onClick={userSignOut}>LOG OUT</button>
             </Link>
 
           </div>
