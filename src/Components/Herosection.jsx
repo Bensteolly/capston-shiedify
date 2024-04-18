@@ -13,7 +13,7 @@ const Herosection = () => {
                     desperately hoping for a good samaritan. What if there was <br />
                     a better way?
                 </p>
-                <button className="primary-button2  mt-8">SECURE YOUR DEVICE</button>
+                <button className="bg-[#09122B] text-center text-white w-full max-w-[240px] h-full max-h-12 rounded-lg font-bold text-lg mt-7 p-4 " >SECURE YOUR DEVICE</button>
             </div>
             <div className="w-full sm:w-[646px] h-full mb-8 sm:mb-[120px] mt-8 sm:mt-[80px]">
                 <img src={Heroimage} alt="workstation" className="w-full h-auto" />

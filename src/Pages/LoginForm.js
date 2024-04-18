@@ -61,7 +61,7 @@ const LoginForm = () => {
             </div>
             <div className="mx-10">
               <label type="password" className='text-[14px] sm:text-[20px]'>Password:</label>
-              <input className='w-full h-10 border-2 rounded-md border-inherit '
+              <input className='w-full h-10 border-2 rounded-md border-inherit px-4'
                 type="password"
                 id="password"
                 value={password}
@@ -71,7 +71,7 @@ const LoginForm = () => {
             </div>
             <p className='text-right mx-10 cursor-pointer' onClick="submit">Forgot Password</p>
             {error && <p style={{ color: 'red', paddingLeft: '150px', paddingTop: '40px' }}>{"Invalid useremail or password"}</p>}
-            <button type="submit" className='bg-[#09122B] text-white w-full max-w-[145px] h-full max-h-12 rounded-lg p-4 font-bold text-center text-sm my-6 mx-[150px] sm:text-3xl pt-8'>LOGIN</button>
+            <button type="submit" className='bg-[#09122B] text-white w-full max-w-[145px] h-full max-h-12 rounded-lg p-4 font-bold text-center text-sm my-6 mx-[150px] sm:text-xl'>LOGIN</button>
           </form>
           <p className='text-center pb-6 sm:mb-4'>Don't have an account,<Link to="/sign-up"><span className='cursor-pointer'>Sign up!</span>
           </Link> </p>

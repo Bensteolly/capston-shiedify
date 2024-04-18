@@ -26,7 +26,7 @@ const  Home = () => {
       <div className=" w-full px-4 sm:px-3 lg:px-3 py-3   ">
         <div className="flex sm:flex-row justify-between items-center w-full max-w-[1200px] mx-auto p-2 ">
           <div
-            className="w-[12%] h-[12%]"><img src={Logo} alt="Shieldfy-logo" className="w-full h-full object-cover sm:w-[40%] sm:h-[40%]" /></div>
+            className="w-[12%] h-[12%]"><img src={Logo} alt="Shieldfy-logo" className="w-full h-full object-cover sm:w-[50%] sm:h-[50%]" /></div>
 
           <ul className="lg:flex hidden sm: gap-4 mt-4 sm:mt-0">
             <li>Features</li>
@@ -35,7 +35,7 @@ const  Home = () => {
           </ul>
           <div className="flex items-center gap-4">
             <Link to="../Pages/LoginForm.js">
-              <button className='bg-[#09122B] text-white w-full max-w-[145px] h-full max-h-12 rounded-lg p-4 font-bold text-center text-sm my-6 mx-[150px] sm:text-3xl pt-8'
+              <button className='bg-[#09122B] text-white w-full max-w-[145px] h-full max-h-12 rounded-lg p-4 font-bold text-center text-sm my-6 mx-[150px] sm:text-lg'
                 onClick={userSignOut}>LOG OUT</button>
             </Link>
 
