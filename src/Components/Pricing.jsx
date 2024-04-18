@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 const Pricing = () => {
 
@@ -11,8 +13,8 @@ const Pricing = () => {
         },
         {  index: 2, 
             title: 'Shieldify Pro',
-            amount: 'N10,000 per month',
-            features: ['Free to use', 'Limited to ine device', 'Priority customer support', 'Real-time location update','Track & locate device using GPS/location services', 'Basic location-based boundaries alert (e.g. when device leaves office or home).'],
+            amount: 'N10,000 per month or 110,000 per year',
+            features: ['All features of the Basic plan', 'unlimited device tracking', 'Advance loacation-based boundary customisation (e.g creating multiple boundaries, geofencing', 'Real-time location update','Priority customer support'],
             plan: 'CHOOSE PRO'
         }
     ];
@@ -30,7 +32,7 @@ const Pricing = () => {
                 <p className="font-medium text-lg md:text-xl lg:text-2xl">{prize.amount}</p> 
                 <ul className="text-left">
                   {prize.features.map((feature, index) => (
-                    <li key={index}>{feature}</li>
+                    <li key={index} className="flex gap-2">{<FontAwesomeIcon icon={faCheckCircle}></FontAwesomeIcon>}{feature}</li>
                   ))}
                 </ul>
                 <button className="bg-none border-2 rounded-sm text-[#09122B] w-full max-w-[288px] h-13 p-4 font-bold text-center transistion ease-in-out duration-300 hover:bg-slate-900 mt-4 hover:text-white">{prize.plan}</button>
