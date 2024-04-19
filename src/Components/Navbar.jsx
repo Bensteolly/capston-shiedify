@@ -20,9 +20,9 @@ const Navbar = () =>{
           <Link to="../Pages/LoginForm.js">
             <h2 className="text-center mt-3 underline">LOGIN</h2>
           </Link>
-          <Link to="/signup.jsx">
-            <button className="w-full max-w-[145px] h-full max-h-[48px] p-4 rounded-lg font-bold text-center text-sm text-white bg-[#09122B]">GET STARTED</button>
-          </Link>
+            <button className="w-full max-w-[145px] h-full max-h-[48px] p-4 rounded-lg font-bold text-center text-sm text-white bg-[#09122B]">
+              <Link to="/sign-up"><p> GET STARTED</p></Link>
+             </button>
         </div>
       </div>
       
