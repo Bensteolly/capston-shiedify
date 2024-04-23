@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Appdownload = () => {
     return (
-        <div className="w-full max-w-[1270px] flex flex-col sm:flex-row h-[637px] mt-[100px] border-solid  border-[#B3BCD5] border-2 rounded-2xl my-11 mx-auto">
+        <div className="w-full max-w-[1270px] mx-5 sm:mx-auto flex flex-col sm:flex-row h-[637px] mt-[100px] border-solid  border-[#B3BCD5] border-2 rounded-2xl my-11">
     <div className="hidden sm:block flex-grow">
         <img src={Phone} alt="phone-1" className="w-full h-full object-cover"></img>
     </div>

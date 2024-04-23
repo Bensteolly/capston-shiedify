@@ -90,6 +90,7 @@ const Signup = () => {
                             />
                         </div>
                         <button type="submit" className='bg-[#09122B] text-white w-full max-w-[145px] h-full max-h-12 rounded-lg p-4 font-bold text-center text-sm my-6 mx-[150px] sm:text-xl'  >SIGN UP</button>
+                        {error && <p style={{ color: 'red', paddingLeft: '150px', paddingTop: '40px' }}>{"email already in use!"}</p>}
                     </form>
                     <p className='text-center pb-6 sm:mb-4'>Already have an account,
                         <Link to="../Pages/LoginForm.js"><span className='cursor-pointer'>Login!</span>

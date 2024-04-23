@@ -20,7 +20,7 @@ const Pricing = () => {
     ];
 
     return(
-        <div className="my-6">
+        <div className="my-6 sm:mx-auto mx-5">
           <div className="text-center">
             <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl">Pricing</h2>
             <p className="font-medium text-lg md:text-xl lg:text-2xl">Choose a prize that fits your needs for a comprehensive tracking solution</p>

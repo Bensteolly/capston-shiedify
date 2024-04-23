@@ -3,7 +3,7 @@ import '../App.css';
 import Logo from '../Assets/1 5.png';
 import { Link, useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../API/firebase.config'
+import { auth } from '../API/firebase.config';
 
 
 const LoginForm = () => {

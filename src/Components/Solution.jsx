@@ -6,7 +6,7 @@ import DeviceMg from '../Assets/Multiple Devices.png'
 
 const Oursolution = () => {
   return (
-    <div className="w-full md:max-w-[1272px] mx-auto my-8 shadow-md  border-r-[10px] border-2 p-3 md:p-0">
+    <div className="w-full md:max-w-[1272px] sm:mx-auto mx-5 my-8 shadow-md  border-r-[10px] border-2 p-3 md:p-0">
       <h1 className="text-center text-3xl sm:text-4xl py-4 ">Our Solution</h1>
       <div className="mt-1 grid gap-6 sm:grid-cols-2 mb-[100px]">
         <div className="md:max-w-[462px] mx-4 text-left pb-[100px] flex relative mb-4 md:mb-0">

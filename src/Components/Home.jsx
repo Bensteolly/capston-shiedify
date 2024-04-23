@@ -48,7 +48,7 @@ const Home = () => {
       </div>
       <div className="w-full max-w-[1200px] flex flex-col  sm:flex-row justify-between mx-auto px-3 sm:px-6 lg:px-8">
         <div className="max-w-[578px] mt-8 sm:mt-[233px] sm:h-86">
-          <h2 className="font-bold text-4xl  text-[#17191B]">Welcome, you can never Lose Track Again!</h2>
+          <h2 className="font-bold text-4xl  text-[#17191B]">Welcome, you can never lose track again!</h2>
           <p className="font-normal text-left text-lg mt-3">Be sure we have your device secured. That sinking feeling when you realise your
             precious device is gone will be no more. No need wasting time retracking your steps, and
             desperately hoping for a good samaritan. We got you covered! <br />

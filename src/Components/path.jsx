@@ -6,7 +6,7 @@ import BusinessLogo from '../Assets/Business Building.png';
 
 const PathChoosen = () => {
   return (
-    <div className="w-full max-w-[1272px] mx-auto my-8 py-3 shadow-md  border-r-[10px] border-2 ">
+    <div className="w-full max-w-[1272px] sm:mx-auto mx-5 my-8 py-3 shadow-md  border-r-[10px] border-2 ">
       <h2 className="text-3xl sm:text-xl md:text-5xl text-center">Choose the path for you</h2>
       <div className="flex flex-col sm:flex-row justify-between sm:mt-8 py-2">
         <div className="mx-4 my-4 sm:my-0 text-left p-4 ">
