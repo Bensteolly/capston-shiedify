@@ -5,9 +5,9 @@ and mobile app, a contact us page for physical office information and app downlo
 
 # Features
 1. Signup/Login: Users can sign up for an account or log in to access their profile.
-2. About Us Page: Provides detailed information about the website and mobile app, including frequently asked questions (FAQs).
-3. Contact Us Page: Offers information on physical office locations and provides links to download the mobile app for iOS and Android.
-4. Profile Page: Displays user information and linked devices.
+2. Landing Page: Provides detailed information about the website and mobile app, including frequently asked questions (FAQs).
+3. Frequently asked question page: Offers information on most frequetenly asked question about shieldify and search answers for questions.
+4. Home page: Displays user information, profile and linked devices.
 
 # Get Started
 1.  Clone the Repository:
