@@ -10,7 +10,10 @@ const Navbar = () =>{
       <div className=" w-full px-4 sm:px-3 lg:px-3 py-3   ">
       <div className="flex sm:flex-row justify-between items-center w-full max-w-[1200px] mx-auto p-2 ">
         <div 
-        className="w-[12%] h-[12%]"><img src={Logo} alt="Shieldfy-logo" className="w-full h-full object-cover sm:w-[40%] sm:h-[40%]" /></div>
+        className="w-[12%] h-[12%] sm:flex">
+          <img src={Logo} alt="Shieldfy-logo" className="w-full h-full object-cover sm:w-[40%] sm:h-[40%]" />
+          <p className="text-[#09122B] text-lg sm:text-xl font-bold sm:mt-2 sm:pl-2 ">Shieldify</p>
+          </div>
         <ul className="lg:flex hidden sm: gap-4 mt-4 sm:mt-0">
           <li>Features</li>
           <li>Pricing</li>

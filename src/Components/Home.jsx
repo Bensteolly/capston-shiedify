@@ -25,8 +25,9 @@ const Home = () => {
     <div>
       <div className=" w-full px-4 sm:px-3 lg:px-3 py-3   ">
         <div className="flex sm:flex-row justify-between items-center w-full max-w-[1200px] mx-auto p-2">
-          <div className="w-[40%] h-[40%]">
+          <div className="w-[40%] h-[40%] sm:flex">
             <img src={Logo} alt="Shiedify logo" className="h-12 w-12 object-cover" />
+            <p className="text-[#09122B] text-lg sm:text-xl font-bold sm:mt-2 sm:pl-2">Shieldify</p>
           </div>
           <ul className="lg:flex hidden sm: gap-4 mt-4 sm:mt-0">
             <li>Features</li>
@@ -38,13 +39,8 @@ const Home = () => {
               <button className='bg-[#09122B] text-white w-full max-w-[145px] h-full max-h-12 rounded-lg p-4 font-bold text-center text-sm my-6 sm:mx-[150px] sm:text-lg'
                 onClick={userSignOut}>LOG OUT</button>
             </Link>
-
           </div>
         </div>
-        <div>
-          <div className="text-[#09122B] font-extrabold  text-[32px] sm:text-[48px] ml-[100px]">SHIELDIFY</div>
-        </div>
-
       </div>
       <div className="w-full max-w-[1200px] flex flex-col  sm:flex-row justify-between mx-auto px-3 sm:px-6 lg:px-8">
         <div className="max-w-[578px] mt-8 sm:mt-[233px] sm:h-86">
@@ -59,7 +55,7 @@ const Home = () => {
           <img src={Heroimage} alt="workstation" className="w-full h-auto" />
         </div>
       </div>
-      <Questions />
+      <Questions />l
       <Footer />
     </div>
   )
